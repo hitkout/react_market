@@ -1,0 +1,33 @@
+.icons{
+    width: 40px;
+    height: 40px;
+    background-color: #363636;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    float: left;
+}
+
+.iconStyle{
+    color: #FFF;
+    font-size: 24px;
+}
+
+.text-input{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    background-color: #464646;
+}
+
+.p-title{
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}

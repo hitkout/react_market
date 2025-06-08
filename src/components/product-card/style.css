@@ -1,0 +1,61 @@
+.product-page-title{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-row {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 45px;
+	flex-wrap: wrap;
+}
+
+.product-page-content{
+    align-items: center;
+}
+
+.product-page-price{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 24px;
+}
+
+.product-page-button {
+	border: none;
+	outline: none;
+	background: none;
+	text-decoration: none;
+	height: 35px;
+	width: 220px;
+	margin: 0 auto 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #f00;
+	border-radius: 20px;
+	border: 1px solid #f00;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	transition: border-color 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.product-page-button:hover {
+	border-color: #a00;
+	background-color: #a00;
+}
+
+.product-page-description{
+    text-align: center;
+}
+
+.product-page-specifications-title{
+    text-align: center;
+}
+
+.spec-name{
+    width: 50%;
+}
+
+.spec-value{
+}

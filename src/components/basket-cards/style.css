@@ -1,0 +1,130 @@
+.basketTitle{
+    text-align: center;
+}
+.catalog{
+    width: 100%;
+    background-color: #262626;
+    background-image: url(../../assets/images/Frame.svg);
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 24px;
+}
+.CatalogCard {
+    width: 60%;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+}
+.CatalogCard:first-child {
+    margin-top: 300px;
+}
+.cardRow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.catalogBlockImage{
+    width: 150px;
+}
+.catalogCardImage {
+    width: auto;
+    height: 150px;
+}
+.catalogCardTitle {
+    padding: 0;
+    margin: 0;
+    min-width: 300px;
+    max-width: 500px;
+}
+.priceProduct {
+    min-width: 100px;
+    max-width: 200px;
+}
+.counterStyle{
+    min-width: 100px;
+    max-width: 200px;
+}
+.basketTotal{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basketButtons{
+    margin-top: 30px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonBack{
+    background: none;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    height: 35px;
+    width: 200px;
+    background-color: #690000;
+    border: 5px solid #690000;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.buttonBack:hover{
+    background: #AA0000;
+    border-color: #AA0000;
+    cursor: pointer;
+}
+.buttonBack:active{
+    background: #690000;
+    border-color: #690000;
+}
+.buttonNext{
+    background: none;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    height: 35px;
+    width: 200px;
+    background-color: #690000;
+    border: 5px solid #690000;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.buttonNext:hover{
+    background: #AA0000;
+    border-color: #AA0000;
+    cursor: pointer;
+}
+.buttonNext:active{
+    background: #690000;
+    border-color: #690000;
+}
+.buttonStyleBasketIcon{
+    border: none;
+    background: none;
+    outline: none;
+}
+.buttonStyleBasketIcon i{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+.buttonStyleBasketIcon i:hover{
+    color: #CF0000;
+}
